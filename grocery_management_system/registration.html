@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Register Item</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+</head>
+<body>
+    <div class="greeting">
+        <p><h1>Register Your Item Here</h1></p>
+    </div>
+    <div class="login2xplore">
+        <input id="item_name" placeholder="Item Name" maxlength="50" name="name" type="text" />
+        <input id="item_category" placeholder="Item Category"maxlength="50" name="item_category" type="text" />
+        <input id="item_quantity" placeholder="Item Quantity" maxlength="50" name="item_quantity" type="text" />
+        <input id="item_id" placeholder="Item Id" maxlength="50" name="item_id" type="text" />
+        <input id="item_location_in_shop" placeholder="Item Location In Shop" maxlength="50" name="item_location_in_shop" type="text" />
+        <input id="item_price" placeholder="Item Price" maxlength="50" name="item_price" type="text" />
+        <button id="register" onclick=registerItem(); class="btn btn-primary btn-block btn-large" type="button">Register Item</button>
+    </div>
+    <script src="/js/registration.js"></script>
+</body>
+</html>
